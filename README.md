@@ -6,7 +6,7 @@ un vasto assortimento di estensioni di terze parti tradotte e pronte all'uso!
 ## Installazione
 
 ```bash
-composer require justoverclockl/flarum-italian-ext
+composer require justoverclock/lang-ita-extended
 ```
 
 ## Lista componenti tradotti
