@@ -9,6 +9,13 @@ un vasto assortimento di estensioni di terze parti tradotte e pronte all'uso!
 composer require justoverclock/lang-ita-extended
 ```
 
+## Aggiornamento
+
+```bash
+composer update justoverclock/lang-ita-extended
+php flarum cache:clear
+```
+
 ## Lista componenti tradotti
 
 - 🪐 Core
