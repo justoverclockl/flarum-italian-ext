@@ -45,6 +45,7 @@ composer require justoverclock/lang-ita-extended
 - Fof Spamblock
 - Fof Terms
 - Fof User Bio
+- Fof Polls
 
 ## Altre Estensioni Tradotte
 
