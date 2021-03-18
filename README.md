@@ -46,6 +46,12 @@ composer require justoverclock/lang-ita-extended
 - Fof Terms
 - Fof User Bio
 - Fof Polls
+- Fof Auth Discord
+- Fof Gamification
+- Fof Linguist
+- Fof Nightmode
+- Fof Social profile
+- Fof Upload
 
 ## Altre Estensioni Tradotte
 
