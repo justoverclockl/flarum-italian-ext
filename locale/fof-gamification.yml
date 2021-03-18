@@ -1,0 +1,76 @@
+# https://github.com/FriendsOfFlarum/gamification/
+core:
+  forum:
+    index_sort:
+      hot_button: Tendenza # Trending
+      
+fof-gamification:
+  forum:
+    votes: Voti # Votes
+    vote_title: Mostra i votanti # Show Who Voted
+    nav:
+      name: Classifica # Rankings
+    ranking:
+      rank: Posizione # Place
+      name: Utente # User
+      amount: Punti # Points
+    notification:
+      upvote: "{username} ha dato un voto positivo al tuo messaggio" # "{username} upvoted your post"
+      downvote: "{username} ha dato un voto negativo al tuo messaggio" # "{username} downvoted your post"
+    user:
+      points: "Punti: {points}" # "Points: {points}"
+      rank: "{rank}"
+    modal:
+      title: Votanti # Voters
+      upvotes_label: 'Voti positivi:' # 'Upvoters:'
+      downvotes_label: 'Voti negativi:' # 'Downvoters:'
+    mod_item: Mostra votanti # View Voters
+  admin:
+    permissions:
+      vote_label: Dare voti positivi/negativi ai messaggi # Upvote/Downvote posts
+      see_votes_label: Vedere i messaggi con voti positivi/negativi # See post upvotes/downvotes
+      see_ranking_page: Vedere la pagina della classifica # See ranking page
+    nav:
+      desc: Gamification per la community del tuo forum # Gamification for your Flarum community
+    page:
+      rankings:
+        blocked:
+          placeholder: CDK2020, Ralkage, AngelAvila
+          title: Ignora utenti # Ignored Users
+          help: Questi utenti non verranno mostrati nella classifica. I nomi utente doveno essere separati da una virgola seguita da uno spazio.
+          # These users will not be shown on the ranking page. Usernames should be seperated by a comma followed by a space.
+        title: Pagina della classifica # Rankings Page
+        enable: Attiva immagini personalizzate # Enable custom images
+        custom_image_1: Immagine 1° posizione # 1st place image
+        custom_image_2: Immagine 2° posizione # 2nd place image
+        custom_image_3: Immagine 3° posizione # 3rd place image
+      votes:
+        points_title: Punti (Segnaposto) # Points Placeholder
+        points_placeholder: "Punti: " # "Points: "
+        color_holder: '#ffffff'
+        auto_upvote: Dai un voto positivo automatico quando i messaggi vengono postati # Auto upvote posts when posted
+        rate_limit: Applica un tempo limite per votare (10 secondi) # Enforce a vote rate limit (10 seconds)
+        discussion_page: Mostra i voti totali del messaggio originale nella lista delle discussioni # Show total votes of original post on discussions list
+        title: Voti # Votes
+        vote_color: Colore del voto # Voted color
+        icon_name: Icona voto positivo/negativo # Upvote/downvote icon
+        icon_help: "Inserisci una qualsiasi icona di FontAwesome che è seguita con il suffisso -up e -down. Esempio: arrow, thumbs, chevron"
+        # "Input any Font-Awesome icon that is suffixed with -up and -down. Examples: arrow, thumbs, chevron"
+      save_settings: Salva impostazioni # Save settings
+      convert:
+        button: Converti mi piace in voti positivi # Convert likes to upvotes
+        help: Converti i mi piace precedenti da flarum-ext-likes in voti positivi, e calcola la tendenza per tutte le discussioni attuali.
+        # Convert your previous likes from flarum-ext-likes into upvotes, as well as calculate the hotness for all current discussions.
+        converting: I mi piace verrano convertiti. Ricarica il sito dopo un paio di minuti per vedere il processo finito. (Il tempo di conversione può richiedere un pò in base ai mi piace totali presenti sul forum)
+        # Your likes are now being converted. Refresh your site after a few minutes to see the process finished. (Conversion time might take a while depending on your total forum likes)
+        converted: "Tutti i voti sono stati convertiti ({number})" # "Successfully converted all {number} likes"
+      ranks:
+        title: Grado # Ranks
+        ranks: Grado personalizzato # Custom ranks
+        number_title: Quandi badge dovrebbero essere mostrati? # How many rank badges should be shown?
+        help:
+          color: '#ffffff'
+          help: "Inserisci il numero richiesto di voti positivi, il nome del rango e il colore del rango in hex"
+          # "Input the required number of upvotes, the name of the rank, and the hex color of the rank"
+          points: Punti # Points
+          name: Nome # Name
