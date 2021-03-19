@@ -76,5 +76,5 @@ flarum-subscriptions:
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
     follow: Segui
-    following: Seguendo
-    ignoring: Ignorando
+    following: Segui
+    ignoring: Ignora
