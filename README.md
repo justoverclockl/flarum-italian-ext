@@ -59,9 +59,11 @@ php flarum cache:clear
 - Fof Nightmode
 - Fof Social profile
 - Fof Upload
+- Fof Username Request
 
 ## Altre Estensioni Tradotte
 
 - V17development Flarum Blog
+- clarkwinkelmann See Past First Post
 
 
