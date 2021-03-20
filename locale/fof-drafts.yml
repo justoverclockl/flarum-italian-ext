@@ -9,4 +9,38 @@ fof-drafts:
       start: 'Creare bozze'
     settings:
       enable_scheduled_drafts: 'Abilita Programmazione Bozze'
+      schedule_log_output: 'Manda l''output della programmazione al registro log'
+      schedule_on_one_server: 'Usa direttiva ''onOneServer()'' per la programmazione (richiede Redis/Memcache)'
       title: 'FoF Bozze'
+  console:
+    scheduled_drafts_disabled: 'La programmazione delle bozze è attualmente disabilitata nelle impostazioni.'
+  forum:
+    composer:
+      discard_empty_draft_alert: 'Annullare bozza vuota?'
+      exit_alert: 'Annullare modifiche alla bozza?'
+      saved: Salvato!
+      saving: Salvo...
+      title: 'Salva Bozza'
+    dropdown:
+      alert: 'Sei sicuro di voler cancellare la bozza?'
+      delete_all_alert: 'Sei sicuro di voler cancellare tutte le tue bozze?'
+      delete_button: 'Cancella Bozza'
+      empty_text: 'Non hai salvato alcuna bozza'
+      schedule_button: 'Programma Bozza'
+      title: Bozze
+      tooltip: '=> fof-drafts.forum.dropdown.title'
+    schedule_draft_modal:
+      reschedule_button: Riprogramma
+      schedule_button: Programma
+      scheduled_error: 'Impossibile postare: {error}.'
+      scheduled_text: 'Programmato per {datetime}.'
+      text: 'Programma la tua bozza per postarla automaticamente in un secondo momento!'
+      title: 'Programma Bozza'
+      unschedule_button: 'Annulla Programmazione'
+    user:
+      settings:
+        draft_autosave_enable: 'Abilita Autosalvataggio Bozze?'
+        draft_autosave_interval_button: 'Aggiorna Intervallo'
+        draft_autosave_interval_invalid: 'L''intervallo deve essere un numero intero maggiore di 4.'
+        draft_autosave_interval_label: 'Invervallo Autosalvataggio (secondi)'
+        drafts_heading: Bozze
