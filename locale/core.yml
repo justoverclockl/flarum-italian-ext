@@ -99,6 +99,7 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.email'
     extension:
+      configure_scopes: 'Configura ambiti'
       confirm_uninstall: 'Se decidi di proseguire, tutti i dati presenti nel database e i file prensenti nella cartella assets, correlati all''estensione, verranno eliminati. Sei sicuro?'
       disabled: Disabilitata
       enable_to_see: 'Abilita l''estensione per vedere e modificare le impostazioni.'
@@ -153,6 +154,8 @@ core:
       delete_posts_label: 'Cancellare messaggi'
       description: 'Configura chi può vedere o fare cosa.'
       edit_posts_label: 'Modificare messaggi'
+      edit_users_credentials_label: 'Modifica credenziali utente'
+      edit_users_groups_label: 'Modifica gruppi utente'
       edit_users_label: 'Modificare utenti'
       global_heading: Globale
       moderate_heading: Moderazione
@@ -180,6 +183,7 @@ core:
       signup_closed_button: Chiusa
       signup_open_button: Aperta
     settings:
+      saved_message: 'Le tue modifiche sono state salvate.'
       submit_button: '=> core.ref.save_changes'
     upload_image:
       remove_button: '=> core.ref.remove'
@@ -256,6 +260,7 @@ core:
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
       groups_heading: Gruppi
+      nothing_available: 'Non c’è nulla di editabile per te al momento.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Imposta nuova password'
@@ -293,6 +298,7 @@ core:
       newest_button: Nuove
       oldest_button: Vecchie
       relevance_button: Rilevanti
+      toggle_dropdown_accessible_label: 'Cambia indice lista discussioni'
       top_button: Top
     log_in:
       forgot_password_link: 'Password dimenticata?'
@@ -309,6 +315,7 @@ core:
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       mark_as_read_tooltip: 'Segna come letto'
       title: Notifiche
+      toggle_dropdown_accessible_label: 'Vedi notifiche'
       tooltip: Notifiche
     post:
       edited_text: Modificato
