@@ -65,5 +65,7 @@ php flarum cache:clear
 
 - V17development Flarum Blog
 - clarkwinkelmann See Past First Post
+- v17development Flarum Badges
+- Flarumite simple discussion views
 
 
