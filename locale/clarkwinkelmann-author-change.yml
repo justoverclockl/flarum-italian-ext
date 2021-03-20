@@ -5,6 +5,7 @@
 clarkwinkelmann-author-change:
   admin:
     permissions:
+      edit-date: 'Aggiorna discussione e data del post'
       edit-user: 'Aggiorna autore post e discussione'
   forum:
     controls:
