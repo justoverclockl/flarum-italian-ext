@@ -56,7 +56,7 @@ fof-terms:
             title: Aggiornamento dei termini
             updated-at: I termini sono stati aggiornati il {date}
             updated-recently: I termini sono stati aggiornati dalla tua ultima visita
-            i-accept:Accetto i nuovi <a>{policy}</a>
+            i-accept: Accetto i nuovi <a>{policy}</a>
             accept: Conferma
             close: Puoi ora chiudere questo modale
 
