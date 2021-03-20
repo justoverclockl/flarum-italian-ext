@@ -6,14 +6,14 @@ fof-username-request:
   admin:
     permissions:
       moderate_requests: 'Approva richiesta cambio username/nickname'
-      request_nickname: 'Richiedi cambio nickname'
-      request_username: 'Richiedi cambio username'
+      request_nickname: 'Richiedi Cambio Nickname'
+      request_username: 'Richiedi Cambio Nome Utente'
   forum:
     nickname_modals:
       action:
         approval_label: Approva
         decision_title: Decisione
-        help_text: 'Assicurati che la richiesta di cambio username segua le linee guida del forum.'
+        help_text: 'Assicurati che il nome utente richiesto segua le linee guida del forum.'
         name: '{name} ha richiesto di cambiare il suo nickname in "{requestedName}"'
         reason_title: 'Ragione del rifiuto'
         rejected_label: Rifiuta
@@ -27,15 +27,15 @@ fof-username-request:
         deleted: 'Richiesta cambio nickname eliminata.'
         dismiss_button: '=> core.ref.okay'
         submit_button: 'Invia Richiesta'
-        title: 'Richiedi cambio nickname'
+        title: 'Richiedi Cambio Nickname'
       results:
         approved: 'La tua richiesta di cambio nickname è stata approvata'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Il tuo nickname è stato cambiato con successo in: {name}'
         reason: 'Ragione del rifiuto: <i>"{reason}"</i>.'
         rejected: 'La tua richiesta di cambio nickname è stata rifiutata.'
-        resubmit: 'A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nickname dalle impostazioni del tuo account, se lo desideri.'
-        title: 'Richiesta cambio nickname'
+        resubmit: 'Puoi inviare nuovamente una nuova richiesta di modifica del nickname dalle impostazioni del tuo account, se lo desideri.'
+        title: 'Richiesta Cambio Nickname'
     pending_requests:
       empty_text: 'Nessuna richiesta di modifica del nome trovata.'
       nickname_exerpt: 'Nickname richiesto: {requestedName}'
@@ -53,7 +53,7 @@ fof-username-request:
       action:
         approval_label: Approva
         decision_title: Decisione
-        help_text: 'Assicurati che la modifica del nome utente richiesta segua le linee guida del forum.'
+        help_text: 'Assicurati che la il nome utente richiesto segua le linee guida del forum.'
         name: '{name} ha richiesto di cambiare il suo username in "{requestedName}"'
         reason_title: 'Ragione del rifiuto'
         rejected_label: Rifiuta
@@ -67,15 +67,15 @@ fof-username-request:
         deleted: 'Richiesta cambio username eliminata.'
         dismiss_button: '=> core.ref.okay'
         submit_button: 'Invia Richiesta'
-        title: 'Richiedi cambio username'
+        title: 'Richiedi Cambio Username'
       results:
         approved: 'La tua richiesta di cambio username è stata approvata'
         dismiss_button: '=> core.ref.okay'
         new_name: 'Il tuo username è stato cambiato con successo in: {name}'
         reason: 'Ragione del rifiuto: <i>"{reason}"</i>.'
         rejected: 'La tua richiesta di cambio username è stata rifiutata'
-        resubmit: 'A questo punto puoi inviare nuovamente una nuova richiesta di modifica del nome utente dalle impostazioni del tuo account, se lo desideri.'
-        title: 'Richiesta cambio username'
+        resubmit: 'Puoi inviare nuovamente una nuova richiesta di modifica del nome utente dalle impostazioni del tuo account, se lo desideri.'
+        title: 'Richiesta Cambio Username'
   ref:
     name_change_request: 'Richiesta di modifica del nome'
     name_change_requests: 'Richiesta di modifica del nome'
