@@ -1,0 +1,18 @@
+nearata-embed-twitch:
+  admin:
+    allowfullscreen: Consenti schermo intero
+    autoplay: Autoplay
+  forum:
+    modal:
+      label:
+        collection: ID Collezione
+        channel: Nome Canale
+        layout: Layout
+        type: Tipo di contenuto
+        video: ID Video
+      save_changes: Salva modifiche
+      options:
+        channel: Canale
+        video: Video
+        collection: Collezione
+    button_tooltip_title: Integra Twitch
