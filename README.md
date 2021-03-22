@@ -1,5 +1,7 @@
 # Pacchetto di traduzione italiana per Flarum ed estensioni di terze parti
 
+! Aggiorniamo il pacchetto di traduzioni anche più volte al giorno, oltre ad essere sincronizzato con Weblate, quindi l'elenco delle estensioni tradotte può essere più ampio :).
+
 Pacchetto di traduzione italiana per Flarum e relative estensioni in bundle più
 un vasto assortimento di estensioni di terze parti tradotte e pronte all'uso!
 
