@@ -1,0 +1,21 @@
+fof-prevent-necrobumping:
+  forum:
+    composer:
+      warning:
+        title: Questa discussione non ha risposte da più di <b>{time}</b>.
+        description: È molto probabile che l'autore non abbia bisogno di ulteriori risposte e quindi rispondere non serve a nulla.
+        checkbox_label: Sono consapevole che questa discussione è piuttosto vecchia, ma vorrei comunque rispondere.
+        error: Questa discussione è troppo vecchia per rispondere.
+
+  admin:
+    settings:
+      days_label: Giorni
+      days_help: Una discussione verrà contrassegnata come vecchia quando il numero di giorni specificato è trascorso dall'ultimo post pubblicato. Usa <code>0</code> per disabilitarlo di default.
+
+      message_title_label: Titolo messaggio personalizzato
+      message_title_help: 'Usa <code>[time]</code> per il testo, esempio: "14 giorni".'
+      message_description_label: Descrizione messaggio personalizzato
+      message_agreement_label: Messaggio personalizzato da accettare (Checkbox)
+
+      tags_title: Tag
+      tags_help: Sostituisci i giorni globali per un tag specifico. Vuoto significa utilizzare il valore predefinito. Se una discussione ha più tag con valori diversi, verrà utilizzato il valore più basso.
