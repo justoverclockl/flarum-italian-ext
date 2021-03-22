@@ -60,6 +60,7 @@ php flarum cache:clear
 - Fof Social profile
 - Fof Upload
 - Fof Username Request
+- Fof Share Social
 
 ## Altre Estensioni Tradotte
 
