@@ -10,7 +10,7 @@ clarkwinkelmann-bookmarks:
     badge: 'Nei Segnalibri'
     dropdownButton:
       add: 'Aggiungi Segnalibro'
-      remove: 'Rimuovi dai Segnalibri'
+      remove: 'Rimuovi Segnalibro'
     independentButton:
       add: Segnalibro
       remove: 'Nei Segnalibri'
