@@ -7,7 +7,7 @@ fof-user-bio:
     permission:
       editAny: 'Modifica qualunque bio'
       editOwn: 'Modifica propria bio'
-      view: 'Guarda bio'
+      view: 'Vedere la bio'
     setting:
       bioLimit: 'Limite caratteri bio'
   forum:

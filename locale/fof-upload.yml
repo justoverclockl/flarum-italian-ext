@@ -16,7 +16,7 @@ fof-upload:
       watermark: "Qui puoi decidere se aggiungere un Watermark alle tue immagini. Il Watermark sarà aggiunto a tutte le immagini non GIF seguendo le impostazioni che inserirai qui sotto\n"
     labels:
       aws-s3:
-        bucket: Bucket
+        bucket: Cestino
         key: Chiave
         region: Regione
         secret: 'Codice segreto'
@@ -29,7 +29,7 @@ fof-upload:
         toggle: Disattiva
       imgur:
         client_id: 'Imgur client ID'
-        title: 'Impostazioni Imgur'
+        title: 'Impostazioni storage Imgur'
       local:
         cdn_url: 'URL CDN (prefisso file)'
         title: 'Impostazioni archiviazione locale'
@@ -38,7 +38,7 @@ fof-upload:
         mime_types: 'Configura il mimetype, formato dei file'
         title: 'Preferenze generali'
       qiniu:
-        bucket: Bucket
+        bucket: Cestino
         key: Chiave
         secret: 'Codice segreto'
         title: 'Impostazioni Qiniu'
@@ -52,8 +52,8 @@ fof-upload:
         title: 'Filigrana (watermark) sulle immagini'
         toggle: 'Attiva filigrana (watermark)'
     permissions:
-      download_label: 'Scaricare file'
-      upload_label: 'Caricare file'
+      download_label: 'Scarica file'
+      upload_label: 'Carica file'
     templates:
       file: 'Modello predefinito per i file'
       file_description: "Mostra il nome del file e alcune info generali. Proxa i download attraverso php, permettendo la raccolta di statistiche e protezione hotlink.\n"
