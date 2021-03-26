@@ -3,6 +3,9 @@
 # You can read more about the process at https://github.com/rob006-software/flarum-translations/wiki.
 
 askvortsov-checklist:
+  admin:
+    settings:
+      cross_out_completed_items: 'Barrare gli elementi della lista completati?'
   forum:
     composer:
       checklist_tooltip: 'Attiva/Disattiva Checklist'

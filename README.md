@@ -71,5 +71,6 @@ php flarum cache:clear
 - v17development Flarum Badges
 - Flarumite simple discussion views
 - Nearata Embed Twitch
+- DavwheatCustom sidenav link
 
 
