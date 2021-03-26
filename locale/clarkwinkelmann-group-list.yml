@@ -7,7 +7,7 @@ clarkwinkelmann-group-list:
     items:
       add: 'Aggiungi gruppo'
     permissions:
-      see: 'Vedere lista gruppi'
+      see: 'Vedi lista gruppi'
     settings:
       showAvatarBadges: 'Mostra altri badge vicini all''avatar'
       showOnlineStatus: 'Mostra stato online'
