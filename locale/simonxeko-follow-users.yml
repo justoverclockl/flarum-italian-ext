@@ -21,12 +21,12 @@ simonxeko-follow-users:
       notify_new_discussion_label: 'Qualcuno che sto seguendo ha creato una discussione'
       notify_new_post_label: 'Qualcuno che sto seguendo ha postato una risposta'
     sub_controls:
-      following_text: 'Notificami per tutte le nuove discussioni.'
+      following_text: 'Mandami una notifica per tutte le nuove discussioni.'
       hiding_text: 'Nascondi discussioni dalla pagina Tutte le Discussioni.'
       ignoring_text: 'Non mandarmi mai notifiche.'
-      lurking_text: 'Notificami per ogni nuova discussione e risposta.'
+      lurking_text: 'Mandami una notifica per ogni nuova discussione e ogni risposta.'
       not_following_button: 'Non Seguire'
-      not_following_text: 'Notificami solo quando vengo @menzionato.'
+      not_following_text: 'Mandami una notifica solo quando vengo @menzionato.'
       notify_alert_tooltip: 'Ricevi una notifica quando ci sono nuove discussioni o risposte'
       notify_email_tooltip: 'Ricevi un''email quando ci sono nuove discussioni o risposte'
     user_controls:
