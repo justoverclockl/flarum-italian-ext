@@ -72,5 +72,6 @@ php flarum cache:clear
 - Flarumite simple discussion views
 - Nearata Embed Twitch
 - DavwheatCustom sidenav link
+- Nearata Cakeday
 
 
