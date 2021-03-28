@@ -24,7 +24,7 @@ fof-best-answer:
     body:
       awarded: "Hei {recipient_display_name},\nOttimo lavoro, {actor_display_name} ha scelto il tuo post come risposta migliore nella discussione '{discussion_title}'. Grazie di aver contribuito.\nGuardala qui: {discussion_url}\n"
       ba-set: "Hei {recipient_display_name},\n{actor_display_name} ha scelto la risposta migliore nella discussione '{discussion_title}' a cui hai partecipato.\nGuardala ora: {discussion_url}\n"
-      select: "Hei {recipient_display_name},\nSto controllando alcune cose; a questo punto dovresti avere molte risposte alla tua domanda in - '{discussion_title}'. Spero che uno di loro ti abbia aiutato a risolvere il tuo problema.\nIn tal caso, sarebbe davvero utile per i futuri membri se potessi impostare una risposta migliore alla tua domanda. Aiuterà le persone con lo stesso problema a trovare la risposta di cui hanno bisogno, ed è anche un grande ringraziamento ai membri che ti hanno aiutato. Donano il loro tempo volontariamente, quindi è bello far loro sapere che hanno contribuito a risolvere il problema.\nVisita la discussione qui: {discussion_url}, e seleziona il post più appropriato come risposta migliore.\nGrazie!"
+      select: "Hei {recipient_display_name},\nSto controllando alcune cose; a questo punto dovresti avere molte risposte alla tua domanda in - '{discussion_title}'. Spero che uno di loro ti abbia aiutato a risolvere il tuo problema.\n\nIn tal caso, sarebbe davvero utile per i futuri membri se potessi impostare una risposta migliore alla tua domanda. Aiuterà le persone con lo stesso problema a trovare la risposta di cui hanno bisogno, ed è anche un grande ringraziamento ai membri che ti hanno aiutato. Donano il loro tempo volontariamente, quindi è bello far loro sapere che hanno contribuito a risolvere il problema.\n\nVisita la discussione qui: {discussion_url}, e seleziona il post più appropriato come risposta migliore.\nGrazie!\n"
     subject:
       awarded: 'Il tuo post è stato impostato come migliore risposta da {display_name}'
       ba-set: 'Una risposta migliore è stata impostata da {display_name}'
@@ -41,6 +41,6 @@ fof-best-answer:
       content: 'Seleziona una risposta migliore se la tua domanda ha ricevuto una risposta'
       preferences:
         awarded_best_answer: 'Quando qualcuno imposta il mio post come una risposta migliore'
-        best_answer_in_discussion: 'Quando una risposta migliore si trova in una discussione a cui ho partecipato'
-    remove_best_answer: 'Rimuvi risposta migliore'
+        best_answer_in_discussion: 'Quando una risposta migliore è stata scelta in una discussione a cui ho partecipato'
+    remove_best_answer: 'Rimuovi risposta migliore'
     this_best_answer: 'Scegli risposta migliore'
