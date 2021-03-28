@@ -16,7 +16,7 @@ fof-terms:
     permissions:
       export-policies: 'Esporta tutti i dati di utenti e criteri'
       postpone-policies-accept: 'Può posticipare l''accettazione dei nuovi termini'
-      see-user-policies-state: 'Vedere lo stato dei criteri utente'
+      see-user-policies-state: 'Visualizzare lo stato dei criteri utente'
     policies:
       export-url: 'Esporta URL'
       export-url-help: "Qualsiasi utente con l'autorizzazione \"Esporta tutti i dati dei criteri\" può accedere a tali URL per scaricare l'elenco degli utenti che hanno accettato questa norma. Puoi trovare maggiori dettagli sulle opzioni disponibili in <a>extension wiki</a>.\n"

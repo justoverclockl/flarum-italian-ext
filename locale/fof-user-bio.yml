@@ -5,9 +5,9 @@
 fof-user-bio:
   admin:
     permission:
-      editAny: 'Modifica qualunque bio'
-      editOwn: 'Modifica propria bio'
-      view: 'Vedere la bio'
+      editAny: 'Modificare qualunque bio'
+      editOwn: 'Modificare la propria bio'
+      view: 'Visualizzare la bio'
     setting:
       bioLimit: 'Limite caratteri bio'
   forum:
