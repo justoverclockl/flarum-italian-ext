@@ -25,6 +25,6 @@ michaelbelgium-discussion-views:
     modal_resetviews:
       label: 'Questo rimuoverà {count} visita da questa discussione. Continuare?|Questo rimuoverà {count} visite da questa discussione. Continuare?'
       submit_button: 'Si, rimuovi tutto'
-      title: 'Resetta il conteggio visite'
+      title: 'Reimposta conteggio visualizzazioni'
     viewlist:
       title: 'Ultime visite'
