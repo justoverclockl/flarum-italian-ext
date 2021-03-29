@@ -39,4 +39,5 @@ askvortsov-rich-text:
       unordered_list_tooltip: 'Elenco puntato <shift-{modifierKey}-8>'
     settings:
       composer_heading: Composer
+      rich_text_compact_paragraphs_label: 'Non separare i paragrafi con un ritorno a capo'
       use_rich_text_editor_label: 'Utilizzare rich text editor?'
