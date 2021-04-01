@@ -5,7 +5,7 @@
 core:
   admin:
     permissions:
-      can_push_to_frontpage_label: 'Può mettere in Prima Pagina'
+      can_push_to_frontpage_label: 'Metti in Prima Pagina'
   forum:
     badge:
       frontpage_tooltip: 'Messo in Prima Pagina'

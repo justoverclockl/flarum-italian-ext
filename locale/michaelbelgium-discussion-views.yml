@@ -10,7 +10,7 @@ core:
 michaelbelgium-discussion-views:
   admin:
     permissions:
-      reset_views_label: 'Resettare visite delle discussioni'
+      reset_views_label: 'Resetta visite alle discussioni'
       view_number_label: 'Visualizzare conteggio visite delle discussioni'
     settings:
       abbr_numbers_label: 'Abbrevia numeri di visualizzazione'
