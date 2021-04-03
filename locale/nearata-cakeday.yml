@@ -15,14 +15,14 @@ nearata-cakeday:
   forum:
     anniversary: Anniversario
     new_member_label: 'Nuovo Utente'
-page:
-      anniversaries_between_label: "Anniversari tra {date1} e {date2}"
-      anniversaries_for_label: "Anniversari per {date}"
-      empty: Nessun Anniversario.
+    page:
+      anniversaries_between_label: 'Anniversari tra {date1} e {date2}'
+      anniversaries_for_label: 'Anniversari per {date}'
+      empty: 'Nessun Anniversario.'
       filter_options:
+        all: Tutti
         today: Oggi
         tomorrow: Domani
         upcoming: Futuri
-        all: tutti
-      load_more_button: Mostra tutto
+      load_more_button: 'Carica altri'
       title: Anniversari
