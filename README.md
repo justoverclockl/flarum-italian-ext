@@ -73,5 +73,6 @@ php flarum cache:clear
 - Nearata Embed Twitch
 - DavwheatCustom sidenav link
 - Nearata Cakeday
+- malago Flarum Achievements
 
 
