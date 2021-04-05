@@ -23,7 +23,7 @@ michaelbelgium-discussion-views:
     discussion_controls:
       resetviews_button: 'Resetta Visite'
     modal_resetviews:
-      label: 'Questo rimuoverà {count} visita da questa discussione. Continuare?|Questo rimuoverà {count} visite da questa discussione. Continuare?'
+      label: 'Questo comando rimuoverà {count} visita da questa discussione. Continuare?|Questo comando rimuoverà {count} visite da questa discussione. Continuare?'
       submit_button: 'Si, rimuovi tutto'
       title: 'Reimposta conteggio visualizzazioni'
     viewlist:
