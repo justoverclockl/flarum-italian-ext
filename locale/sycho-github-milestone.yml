@@ -16,10 +16,10 @@ sycho-github-milestone:
     closed: '=> sycho-github-milestone.ref.closed'
     complete: '{progress} Completato'
     last_updated: 'Ultimo aggiornamento {time}'
-    load_more: '=> core.forum.discussion_list.load_more_button'
+    load_more: 'Carica Tutto'
     open: '=> sycho-github-milestone.ref.open'
     tasks_done: '{number} di {total}'
-    title: Avanzamento Rilasci
+    title: 'Avanzamento Rilasci'
   ref:
     all: Tutti
     closed: Chiuso
