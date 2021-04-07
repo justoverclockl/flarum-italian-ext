@@ -36,4 +36,4 @@ ianm-follow-users:
       unfollow_button: 'Non seguire più'
       unfollow_confirmation: 'Sei sicuro di non voler più seguire questo utente?'
   lib:
-    following_link: 'Utenti Seguiti'
+    following_link: 'Utenti seguiti'
