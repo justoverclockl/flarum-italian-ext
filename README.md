@@ -18,7 +18,7 @@ composer update justoverclock/lang-ita-extended
 php flarum cache:clear
 ```
 
-## Lista componenti tradotti
+## Lista componenti tradotti  <img src="https://weblate.rob006.net/widgets/flarum/it/core/svg-badge.svg" alt="Stato della traduzione" />
 
 - 🪐 Core
 - askvortsov flarum checklist
