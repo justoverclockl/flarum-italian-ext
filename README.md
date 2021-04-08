@@ -20,7 +20,9 @@ php flarum cache:clear
 
 ## Lista componenti tradotti
 
-- 🪐 Core
+- 🪐 Core <a href="https://weblate.rob006.net/engage/flarum/it/?utm_source=widget">
+<img src="https://weblate.rob006.net/widgets/flarum/it/core/svg-badge.svg" alt="Stato della traduzione" />
+</a>
 - askvortsov flarum checklist
 - askvortsov Discussion Templates
 - Askvortsov Moderator Warnings
