@@ -17,6 +17,7 @@ composer require justoverclock/lang-ita-extended
 composer update justoverclock/lang-ita-extended
 php flarum cache:clear
 ```
+[![Latest Stable Version](https://poser.pugx.org/justoverclock/lang-ita-extended/v)](//packagist.org/packages/justoverclock/lang-ita-extended) [![Total Downloads](https://poser.pugx.org/justoverclock/lang-ita-extended/downloads)](//packagist.org/packages/justoverclock/lang-ita-extended) [![License](https://poser.pugx.org/justoverclock/lang-ita-extended/license)](//packagist.org/packages/justoverclock/lang-ita-extended)
 
 ## Lista componenti tradotti  <img src="https://weblate.rob006.net/widgets/flarum/it/core/svg-badge.svg" alt="Stato della traduzione" />
 
