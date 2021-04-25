@@ -1,0 +1,12 @@
+flarum-ext-guestengagement:
+  forum:
+    hello: Ciao! Sembri essere interessato al forum, ma non ti sei ancora registrato.
+    whenucreate: Quando crei un account, saremo in grado di ricordare esattamente ciò che hai letto, in modo che tu possa riprendere da dove eri rimasto.
+    uwillreceive: Riceverai notifiche, qui o via e-mail, quando qualcuno ti risponde. Puoi anche usare i like per mostrare il tuo apprezzamento.
+    hellops: Ciao! Sembra che tu sia interessato a questo post!
+    whenucreateps: Quando crei un account, saremo in grado di ricordare esattamente ciò che hai letto e riceverai notifiche
+    uwillreceiveps: qui o via e-mail, quando qualcuno ti risponde. Puoi anche mettere like per mostrare il tuo apprezzamento.
+
+  admin:
+   settings:
+   
