@@ -10,4 +10,4 @@ flarum-ext-welcomebox:
     notregistered: 'Attualmente non sei registrato al forum.'
     npost: '=> core.forum.user.posts_link'
     wback: 'Bentornato,'
-    welcomeguest: 'Bencenuto Ospite'
+    welcomeguest: 'Benvenuto Ospite'
