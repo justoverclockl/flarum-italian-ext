@@ -19,11 +19,11 @@ core:
       edit_css_button: 'Modifica CSS'
       edit_footer_button: '=> core.ref.custom_footer_title'
       edit_header_button: '=> core.ref.custom_header_title'
-      enter_hex_message: 'Inserisci un codice colore esadecimale'
+      enter_hex_message: 'Inserisci un codice colore esadecimale.'
       favicon_heading: Favicon
-      favicon_text: 'Carica un''immagine da utilizzare come favicon del sito'
+      favicon_text: 'Carica un''immagine da utilizzare come favicon del sito.'
       logo_heading: Logo
-      logo_text: 'Carica un''immagine da utilizzare al posto del nome del forum'
+      logo_text: 'Carica un''immagine da utilizzare al posto del nome del forum.'
       submit_button: '=> core.ref.save_changes'
       title: Aspetto
     basics:
@@ -37,7 +37,7 @@ core:
       forum_title_heading: 'Nome del Forum'
       home_page_heading: Homepage
       home_page_text: 'Scegli la pagina che gli utenti vedranno per la prima volta quando visitano il tuo forum.'
-      saved_message: 'Le modifiche sono state salvate'
+      saved_message: 'Le modifiche sono state salvate.'
       show_language_selector_label: 'Mostra il selettore di lingua'
       slug_driver_heading: 'Driver Slug: {model}'
       slug_driver_text: 'Seleziona il driver che verrà utilizzato per creare uno slug di questo modello.'
@@ -47,7 +47,7 @@ core:
       welcome_banner_text: 'Configura il testo da visualizzare sul banner. Apparirà nella pagina <b>Tutte le discussioni</b>.'
     dashboard:
       clear_cache_button: 'Pulisci cache'
-      description: 'Il tuo forum a colpo d''occhio'
+      description: 'Il tuo forum a colpo d''occhio.'
       title: Dashboard
       tools_button: Strumenti
     edit_css:
@@ -76,7 +76,7 @@ core:
       title: '=> core.ref.custom_header_title'
     email:
       addresses_heading: Indirizzi
-      description: 'Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail'
+      description: 'Configura le impostazioni SMTP e gli indirizzi che il tuo forum utilizzerà per inviare e-mail.'
       driver_heading: 'Seleziona Driver'
       driver_label: Driver
       from_label: Mittente
@@ -145,6 +145,8 @@ core:
       permissions_text: '=> core.admin.permissions.description'
       permissions_title: '=> core.admin.permissions.description'
       search_placeholder: 'Cerca estensioni'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
     permissions:
       allow_post_editing_label: 'Consenti modifica del messaggio'
       allow_renaming_label: 'Consenti ridenominazione'
@@ -166,10 +168,12 @@ core:
       read_heading: Lettura
       rename_discussions_label: 'Rinomina discussioni'
       reply_to_discussions_label: 'Rispondere alle discussioni'
+      search_users_label: 'Cerca utenti'
       sign_up_label: Registrazione
       start_discussions_label: 'Iniziare una discussione'
       title: Permessi
       view_discussions_label: 'Leggere le discussioni'
+      view_forum_label: 'Guarda forum (discussioni e utenti)'
       view_hidden_groups_label: 'Visualizzare i badge dei gruppi nascosti'
       view_last_seen_at_label: 'Visualizza sempre l''ora dell''ultimo accesso di un utente'
       view_post_ips_label: 'Visualizzare indirizzi IP di un messaggio'
@@ -189,8 +193,37 @@ core:
     upload_image:
       remove_button: '=> core.ref.remove'
       upload_button: 'Scegli un''immagine...'
+    users:
+      description: 'Un elenco impaginato di tutti gli utenti sul tuo forum.'
+      grid:
+        columns:
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: 'Modifica {username}'
+          email:
+            title: '=> core.ref.email'
+            visibility_hide: 'Nascondi indirizzo email'
+            visibility_show: 'Mostra indirizzo email'
+          group_badges:
+            no_badges: Nessuna
+            title: Gruppi
+          join_time:
+            title: Iscritto
+          user_id:
+            title: ID
+          username:
+            profile_link_tooltip: 'Visita profilo di {username}'
+            title: '=> core.ref.username'
+        invalid_column_content: 'Non valido'
+      pagination:
+        back_button: 'Pagina precedente'
+        next_button: 'Pagina successiva'
+        page_counter: 'Pagina {current} di {total}'
+      title: '=> core.ref.users'
+      total_users: 'Utenti totali: {count}'
   api:
-    invalid_username_message: 'Il nome utente può contenere solo lettere, numeri e trattini'
+    invalid_username_message: 'Il nome utente può contenere solo lettere, numeri e trattini.'
   email:
     activate_account:
       body: "Ciao {username}!\n\nQualcuno si è registrato su {forum} con questo indirizzo e-mail.\n\nSe sei stato tu, clicca sul seguente link e il tuo account verrà attivato:\n{url}\n\nSe non ti sei iscritto, per favore ignora questa e-mail.\n"
@@ -341,7 +374,7 @@ core:
       viewing_text: '{index} di {count} messaggio|{index} di {count} messaggi'
     post_stream:
       discussion_renamed_old_tooltip: 'Il vecchio titolo era: "{old}"'
-      discussion_renamed_text: '{username} ha cambiato il titolo in {new}'
+      discussion_renamed_text: '{username} ha cambiato il titolo in {new}.'
       load_more_button: '=> core.ref.load_more'
       reply_placeholder: '=> core.ref.write_a_reply'
       time_lapsed_text: '{period} dopo'
@@ -410,6 +443,18 @@ core:
       hidden_tooltip: Nascosto
     dropdown:
       toggle_dropdown_accessible_label: 'Attiva/disattiva il menu a discesa'
+    edit_user:
+      activate_button: 'Attiva Utente'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Gruppi
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Imposta nuova password'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.edit_user'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: 'Non puoi disattivare l''estensione {extension} finché non disattiverai le seguenti estensioni: {extensions}'
       generic_message: 'Oops! Qualcosa è andato storto. Aggiorna la pagina e riprova.'
@@ -417,6 +462,8 @@ core:
       not_found_message: 'La risorsa richiesta non è stata trovata.'
       permission_denied_message: 'Non hai il permesso di farlo.'
       rate_limit_exceeded_message: 'Stai scrivendo un po'' troppo in fretta. Riprova tra qualche secondo.'
+    loading_indicator:
+      accessible_label: '=> core.ref.loading'
     number_suffix:
       kilo_text: K
       mega_text: M
@@ -433,7 +480,7 @@ core:
     color: Colore
     confirm_password: 'Conferma password'
     confirmation_email_sent: 'Abbiamo inviato una e-mail di conferma a {email}. Ricordati di controllare la cartella spam.'
-    custom_footer_text: 'Aggiungi codice HTML nella parte inferiore della pagina'
+    custom_footer_text: 'Aggiungi codice HTML nella parte inferiore della pagina.'
     custom_footer_title: 'Modifica footer'
     custom_header_text: 'Aggiungi codice HTML da visualizzare in cima della pagina, sopra l''header di Flarum.'
     custom_header_title: 'Modifica header'
@@ -441,10 +488,12 @@ core:
     delete_forever: 'Cancella per sempre'
     discussions: Discussioni
     edit: Modifica
+    edit_user: 'Modifica Utente'
     email: E-mail
     icon: Icona
     icon_text: 'Inserisci il nome di una qualsiasi icona di <a>FontAwesome</a>, <em>includendo</em> il prefisso <code>fas fa-</code>.'
     load_more: 'Carica di più'
+    loading: Caricamento...
     log_in: Accedi
     log_out: Esci
     mark_all_as_read: 'Segna tutto come letto'
