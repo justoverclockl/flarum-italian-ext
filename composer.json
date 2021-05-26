@@ -7,8 +7,8 @@
     "authors": [
         {
             "name": "Marco Colia",
-            "email": "info@justoverclock.it",
-            "homepage": "https://www.justoverclock.it"
+            "email": "info@flarum.it",
+            "homepage": "https://flarum.it"
         }
     ],
     "support": {
@@ -16,7 +16,7 @@
         "source": "https://github.com/justoverclockl/flarum-italian-ext"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.16"
+        "flarum/core": "^1.0.0"
     },
     "extra": {
         "branch-alias": {
