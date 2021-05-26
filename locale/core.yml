@@ -694,7 +694,7 @@ core:
     users: Utenti                                 # Referenced by flarum-statistics.yml
     view: Vedi
     write_a_reply: Rispondi...
-    you: Tu                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    you: Te                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
